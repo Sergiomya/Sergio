@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width"> 
+        <title>Purchase</title>
+        <link rel="stylesheet" href="./styles/imports.css">
+        <link rel="stylesheet" href="./styles/steps.css">
+        <link rel="stylesheet" href="./styles/content.css">
+        <link rel="stylesheet" href="./styles/agreement.css">
+        <link rel="stylesheet" href="./styles/summary.css">
+    </head>
+
+    <body>
+        <div class="flexbox-container">
+
+            <!-- Steps Block: -->
+
+            <div class="steps">
+                <div class="step">
+                    <div class="step__icon"></div>
+                    <div class="step__text">Cart</div>
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="step">
+                    <div class="step__icon"></div>
+                    <div class="step__text">Address</div>
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="step step_current">
+                    <div class="step__icon"></div>
+                    <div class="step__text">Payment</div>
+                </div>
+
+                <div class="divider divider_next"></div>
+
+                <div class="step step_next">
+                    <div class="step__icon"></div>
+                    <div class="step__text">Confirm</div>
+                </div>
+            </div>
+
+            <!-- Back Button Block: -->
+
+            <button class="back">
+                <div class="back__icon"></div>
+                <div class="back__text">Adresses</div>
+            </button>
+
+            <!-- page-->
+
+            <div class="page">
+
+                <div class="cards">
+
+                    <div class="card__caption">
+                        <div class="content__text">Registered cards</div>
+                    </div>
+
+                    <div class="separator"></div>
+
+                    <div class="card">
+                        <div class="choice">
+                            <div class="choice__icon"></div>
+                            <div class="choice__card"></div>
+                        </div>
+
+                        <div class="card_layout">
+                            <div class="card__name">Banka</div>
+                            <div class="card__text">Ziraat Bankası</div>
+                        </div>
+
+                        <div class="card__pincode">
+                            <div class="card__name">Son dört hane</div>
+                            <div class="card__text">1234</div>
+                        </div>
+
+                        <div class="card__heading">
+                            <div class="card__name">Kartın üzerindeki ad</div>
+                            <div class="card__text">Hızır Kocaman</div>
+                        </div>
+
+                        <div class="card__expiration">
+                            <div class="card__name">Son kullanma tarihi</div>
+                            <div class="card__text">12/34</div>
+                        </div>
+
+                    </div>
+
+                    <div class="separator separator__bank"></div>
+
+                    <div class="card">
+                        <div class="choice_next">
+                            <div class="choice__icon"></div>
+                            <div class="choice__card"></div>
+                        </div>
+
+                        <div class="card_layout">
+                            <div class="card__name">Banka</div>
+                            <div class="card__text">T. İş Bankası</div>
+                        </div>
+
+                        <div class="card_pincode">
+                            <div class="card__name">Son dört hane</div>
+                            <div class="card__text">1234</div>
+                        </div>
+
+                        <div class="card_heading">
+                            <div class="card__name">Kartın üzerindeki ad</div>
+                            <div class="card__text">Jane Cooper</div>
+                        </div>
+
+                        <div class="card_expiration">
+                            <div class="card__name">Son kullanma tarihi</div>
+                            <div class="card__text">12/34</div>
+                        </div>
+                    </div>
+
+
+                    <!-- Agreement -->
+                    <div class="agreement">
+                        <div class="agreement_key">
+                            <div class="info">
+                                <div class="info__icon"></div>
+                                <div class="info__text">Add new card</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Summary -->
+                <div class="summary">
+                    <div class="payment">
+                        <div class="header">
+                            <div class="title">
+                                <div class="title__icon"></div>
+                                <div class="title__text">Alışveriş Özeti</div>
+                            </div>
+                            <div class="subtitle">
+                                <div class="subtitle__text">Product name</div>
+                                <div class="subtitle__text">Portion</div>
+                                <div class="subtitle__text">Price</div>
+                            </div>
+                        </div>
+                        <div class="heder_separator"></div>
+                        <div class="list">
+                            <div class="column">
+                                <div class="line">
+                                    <div class="line__icon"></div>
+                                    <div class="line__text">Salad</div>
+                                    <div class="line__text">(x1)</div>
+                                    <div class="line__number">₺15,00</div>
+                                </div>
+                            </div>
+
+                            <div class="column">
+                                <div class="line line_next">
+                                    <div class="line__icon"></div>
+                                    <div class="line__text">Waffle</div>
+                                    <div class="line__text">(x1)</div>
+                                    <div class="line__number">₺20,00</div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="list_separator"></div>
+
+                        <div class="account">
+                            <div class="pay">
+                                <div class="pay__text">Toplam:</div>
+                                <div class="pay__number">₺35,00</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Button -->
+                    <button class="review">
+                        <div class="review__text">Review your order</div>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+    </body>
+
+</html>

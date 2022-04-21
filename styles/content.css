@@ -1,0 +1,151 @@
+/**
+* page
+*/
+
+.page {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 1132px;
+    height: 449px;
+    margin: 73px auto 0 auto;
+}
+
+@media (max-width: 1130px) {
+    .page {display:block };
+
+}
+
+.cards {
+    display: block;
+    width: 700px;
+    height: 258px;
+    border: 1px solid #cfcfcf;
+    border-radius: 16px;
+    margin: 0px 32px;
+}
+
+.card__caption {
+    display: flex;
+    align-items: center;
+    background: url(../images/shape.svg);
+    width: 20px;
+    height: 14px;
+    margin: 30px 30px;
+}
+
+.content__text {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 32px 32px;
+    white-space: pre;
+}
+
+.separator {
+    width: 700px;
+    height: 1px;
+    background: #cfcfcf;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 32px;
+    width: 636px;
+    height: 92px;
+}
+
+.choice {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.choice__icon {
+    background: url(../images/Success.svg);
+    width: 24px;
+    height: 24px;
+}
+
+.choice_next .choice__icon {
+    background: url(../images/checkFFF.svg) no-repeat;
+    background-position: 50%;
+    border: 1px solid #cfcfcf;
+    border-radius: 50%;
+}
+
+.choice__card {
+    background: url(../images/shape.svg);
+    width: 20px;
+    height: 14px;
+    margin-top: 12px;
+    align-items: center;
+}
+
+.choice_next .choice__card {
+    opacity: 50%;
+}
+
+.choice_next {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.card__name {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #5e5e5e;
+    justify-content: center;
+}
+
+.card__text {
+    font-family: 'Rubik';
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    justify-content: center;
+    margin-top: 17px;
+    margin-left: 3px;
+}
+
+.card_layout .card__text {
+    color: #5e5e5e;
+
+}
+
+.card_pincode .card__text {
+    color: #5e5e5e;
+}
+
+.card_heading .card__text {
+    color: #5e5e5e;
+}
+
+.card_expiration .card__text {
+    color: #5e5e5e;
+}
+
+.card_pincode .card__text {
+    padding-left: 12px;
+}
+
+.separator__bank {
+    width: 636px;
+    height: 1px;
+    background: #cfcfcf;
+    margin: 0px 32px;
+}

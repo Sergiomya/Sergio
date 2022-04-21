@@ -1,0 +1,112 @@
+.flexbox-container {
+    display: flex;
+    flex-direction: column;
+}
+/**
+* Steps Block
+*/
+
+.steps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 32px;
+    margin: 50px auto 0 auto;
+}
+
+/**
+* Step Block
+*/
+
+.step {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.step__icon {
+    width: 28px;
+    height: 28px;
+    background: url(../images/check.svg);
+}
+
+.step_current .step__icon {
+    width: 32px;
+    height: 32px;
+    background: none;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+.step_next .step__icon {
+    opacity: 0.2;
+}
+
+.step__text {
+    position: absolute;
+    top: 28px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.step_current .step__text {
+    font-size: 16px;
+    text-decoration: underline;
+    top: 36px;
+}
+
+.step_next .step__text {
+    color: #5e5e5e;
+}
+
+/**
+* Divider Block
+*/
+
+.divider {
+    height: 2px;
+    width: 140px;
+    background: #000;
+}
+
+.divider_next {
+    background: #cfcfcf;
+}
+
+.back {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #cfcfcf00;
+    border: 0px;
+    box-sizing: content-box;
+    cursor: pointer;
+    width: 130px;
+    height: 32px;
+    left: calc(50% - 130px/2 - 485px);
+    top: 127px;
+}
+
+@media (max-width: 1130px) {
+    .back {
+        left: 0px;
+    }
+}
+
+.back__icon {
+    width: 32px;
+    height: 32px;
+    background: url(../images/arrow-left.svg);
+}
+
+.back__text {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+

@@ -1,0 +1,48 @@
+
+.agreement {
+    display: block;
+    align-items: center;
+    justify-content: left;
+    padding-top: 24px;
+}
+
+.agreement_key {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 700px;
+    height: 76px;
+    border-radius: 16px;
+    border: 1px solid #cfcfcf;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 145px;
+    height: 28px;
+    padding-left: 32px;
+}
+
+.info__icon {
+    background: url(../images/checkFFF.svg) no-repeat; 
+    background-position: 50%;
+    border: 1px solid #cfcfcf;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    
+}
+
+.info__text {
+    display: flex;
+    align-items: center;
+    font-family: 'Rubik';
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    white-space: pre;
+    padding-left: 16px;
+
+}
